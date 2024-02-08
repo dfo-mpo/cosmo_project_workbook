@@ -1,0 +1,197 @@
+{
+    "Year": "1998",
+    "Gazetted name": "SOMASS RIVER",
+    "RAB code": "93-2300",
+    "Area": "23-1",
+    "District": "04",
+    "Sub": "23 Port Alberni",
+    "First local name": "SOMASS RIVER SYSTEM",
+    "Flows into": "ALBERNI INLET",
+    "Latitude": "49 14 45",
+    "Longitude": "124 49 8",
+    "Start date": "15/05/1998",
+    "End date": "10/11/1998",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Total adult count excludes hatchery removals. Jack counts include hatchery includes hatchery removals. (4) Describe basis for estimating total adults SK Run 1: Great Central Lake (GCL) and Sproat fishway counts May 21 - Oct. 19. Total count by electronic counters at Great Central Lake (GCL) and Sproat fishway. Though to be very acurate but manual observations and bio-sampling resulted in 106,000 - 203,000 jacks respectively. These were averaged then deducted from the total return to give the adult spawners. (4) Describe basis for estimating total adults CO Run 1: Counts from Stamp Falls fishway from Sept. 2 to Nov. 10 (ajusted) and Taylor River snorkel swims. (4) Describe basis for estimating total adults PK Run 1: Most spawning takes place from below Stamp Falls and these were not enumerated in 1998 due to poor flying conditions at optimum period. (4) Describe basis for estimating total adults CM Run 1: Most spawning takes place from below Stamp Falls and these were not enumerated in 1998 due to poor flying conditions at optimum period. (4) Describe basis for estimating total adults CN Run 1: Chinook: Observations by experienced crews on Stamp River did not support the chinook escapement levels pbserved migrating through Stamp Falls. Applying pre-spawn mortality rates observed in Robertson Creek hatchery resulted in a range of 8,327 - 11,466 female successfully spawned in the Stamp River. Only the optimum spawning beds were used by chinook. Density in these areas were though to be ideal.Estimated 4,000 pre-spawn morts below Stamp Falls included in estimate.",
+    "Person preparing report": "Jeff Till",
+    "Bio Sampling": [
+      {
+        "Species": "SK",
+        "Comments": "sex"
+      },
+      {
+        "Species": "CN",
+        "Comments": "sex"
+      }
+    ],
+    "Details affecting salmon escapement": {
+      "SK 1": {
+        "Methods": "3,11",
+        "%Spawn habitat surveyed": "95",
+        "Rel": "5",
+        "Enum Class": "0",
+        "Esc Code": "A.C.",
+        "Est total adults": "378,606",
+        "Jacks": "154,866"
+      },
+      "SK 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.O."
+      },
+      "CO 1": {
+        "Methods": "3,11",
+        "%Spawn habitat surveyed": "70",
+        "Rel": "4",
+        "Enum Class": "0",
+        "Esc Code": "A.C.",
+        "Est total adults": "36,611",
+        "Brood stock removals": "36,658",
+        "Jacks": "5,105"
+      },
+      "CO 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.O."
+      },
+      "PK 1": {
+        "Methods": "3,11",
+        "%Spawn habitat surveyed": "2",
+        "Rel": "1",
+        "Enum Class": "0",
+        "Esc Code": "A.C.",
+        "Est total adults": "12"
+      },
+      "PK 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.O."
+      },
+      "CM 1": {
+        "Methods": "3,11",
+        "%Spawn habitat surveyed": "2",
+        "Rel": "1",
+        "Enum Class": "0",
+        "Esc Code": "A.C.",
+        "Est total adults": "25"
+      },
+      "CM 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.O."
+      },
+      "CN 1": {
+        "Methods": "3,11",
+        "%Spawn habitat surveyed": "90",
+        "Rel": "5",
+        "Enum Class": "0",
+        "Esc Code": "A.C.",
+        "Est total adults": "32,049",
+        "Brood stock removals": "10,762",
+        "Jacks": "248"
+      },
+      "CN 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.O."
+      },
+      "ST 1": {
+        "Methods": "3,11",
+        "%Spawn habitat surveyed": "70",
+        "Rel": "3",
+        "Enum Class": "0",
+        "Esc Code": "A.C.",
+        "Est total adults": "608"
+      },
+      "ST 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.O."
+      },
+      "AT 1": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.O."
+      },
+      "AT 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.O."
+      },
+      "CT 1": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.I."
+      },
+      "CT 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.I."
+      },
+      "TR 1": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.I."
+      },
+      "TR 2": {
+        "%Spawn habitat surveyed": "0",
+        "Enum Class": "0",
+        "Esc Code": "N.I."
+      }
+    },
+    "Spawning run timing": {
+      "SK 1": {
+        "Arrival month": "Apr",
+        "Arrival day": "11-20"
+      },
+      "SK 2": {
+        "Arrival month": "May",
+        "Arrival day": "21-31"
+      },
+      "CO 1": {
+        "Arrival month": "Aug",
+        "Arrival day": "21-31"
+      },
+      "CN 1": {
+        "Arrival month": "Aug",
+        "Arrival day": "21-31",
+        "Start month": "Oct",
+        "Start day": "1-10",
+        "Peak month": "Oct",
+        "Peak day": "11-20",
+        "End month": "Nov",
+        "End day": "11-20"
+      }
+    },
+    "Field Crew": null,
+    "Biological details particulars": null,
+    "Second local name": null,
+    "Inspection dates": null
+  }

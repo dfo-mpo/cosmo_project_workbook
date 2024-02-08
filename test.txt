@@ -1,0 +1,33 @@
+"Bio Sampling": [
+    {
+    "Species": "SK",
+    "Comments": "sex"
+    },
+    {
+    "Species": "CN",
+    "Comments": "sex"
+    }
+],
+
+"Bio Sampling": [
+    "Row1": {
+        "Species": ["SK", null],
+        "Scales": ["selected", null],
+        "Otoliths": ["unselected", null],
+        "Ovaries": ["unselected", null],
+        "Length": ["selected", null],
+        "DNA": ["unselected", null],
+        "Other": ["selected", null],
+        "Comments": ["sex", null]
+    },
+    "Row2": {
+        "Species": ["CN", null],
+        "Scales": ["selected", null],
+        "Otoliths": ["selected", null],
+        "Ovaries": ["unselected", null],
+        "Length": ["selected", null],
+        "DNA": ["unselected", null],
+        "Other": ["selected", null],
+        "Comments": ["sex", null]
+    }
+],
