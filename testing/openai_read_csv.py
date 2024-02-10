@@ -1,3 +1,4 @@
+# This script is to test openAIs ablilty to read and understand content in a CSV format
 import openai
 import pandas as pd
 
@@ -8,6 +9,7 @@ openai.api_version = "2023-07-01-preview"
 openai.api_key = "9c99b1e94cbc489dbff13f12b69798f7"
 model_id = "gpt-4-turbo-1106p"
 
+# Sends CSV for openai to read and respond to questions with, returns responce from OpenAI
 def read_csv_using_gpt(prompt, csv_content):
     # Combine the prompt and CSV content
     conversation = [{'role': "system", "content": f"You are an AI assistant that reads in a CSV and answers user questions only using information from it.\nCSV:\n{csv_content}"}]

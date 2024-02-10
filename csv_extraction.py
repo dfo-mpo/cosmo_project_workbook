@@ -13,13 +13,14 @@ def convert_to_list(cell):
         # Return the cell as-is if it's not a string representation of a list  
         return cell  
   
-# Function to update the list based on the float value  
-def update_list(value):  
-    if isinstance(value, list) and len(value) == 2:  
-        if value[1] is None or float(value[1]) < 0.9:  
-            value.append(1)  
-        else:  
+# Function to update the list based on the float value, assumes confidence is last entry for value that may or may not contain a polygon object 
+def update_list(value):
+    valSize = len(value)
+    if isinstance(value, list) and valSize in [2,3]:  
+        if value[valSize-1] is None or float(value[valSize-1]) >= 0.9:  
             value.append(0)  
+        else:  
+            value.append(1)  
     return value  
   
 # Function to convert flat dictionary with delimited keys into a nested dictionary  

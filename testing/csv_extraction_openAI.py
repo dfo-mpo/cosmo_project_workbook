@@ -11,6 +11,7 @@ model_id = "gpt-4-turbo-1106p"
 
 csv_file_path = "output.csv"  # Replace with the path to your CSV file
 
+# Uses GPT to check if a given work is real. GPT is instructed to behave like a function, returning only True or False
 def gpt_check_word(entry):
     # Combine the prompt and CSV content
     conversation = [{'role': "system", "content": """You are a function that takes in an entry and returns True or False. 

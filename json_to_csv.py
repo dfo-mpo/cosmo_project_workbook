@@ -1,3 +1,5 @@
+# The perpose of this script is to covert the jsons in the input folder to creat CSVs in the csv folder that are flattened.
+# These flattened CSVs are easy to work with for analysis and adding additional information
 import json  
 import os  
 import pandas as pd  
