@@ -7,7 +7,7 @@
     "Gazetted name": [
         "SOMASS RIVER",
         0.971,
-        0
+        1
     ],
     "RAB code": [
         "93-2300",
@@ -254,7 +254,7 @@
             "Esc Code": [
                 "A.C.",
                 null,
-                0
+                1
             ],
             "Est total adults": [
                 "378,606",
@@ -281,7 +281,7 @@
             "Esc Code": [
                 "N.O.",
                 null,
-                0
+                1
             ]
         },
         "CO 1": {
@@ -308,7 +308,7 @@
             "Esc Code": [
                 "A.C.",
                 null,
-                0
+                1
             ],
             "Est total adults": [
                 "36,611",
@@ -340,7 +340,7 @@
             "Esc Code": [
                 "N.O.",
                 null,
-                0
+                1
             ]
         },
         "PK 1": {
@@ -367,7 +367,7 @@
             "Esc Code": [
                 "A.C.",
                 null,
-                0
+                1
             ],
             "Est total adults": [
                 "12",
@@ -389,7 +389,7 @@
             "Esc Code": [
                 "N.O.",
                 null,
-                0
+                1
             ]
         },
         "CM 1": {
@@ -416,7 +416,7 @@
             "Esc Code": [
                 "A.C.",
                 null,
-                0
+                1
             ],
             "Est total adults": [
                 "25",
@@ -438,7 +438,7 @@
             "Esc Code": [
                 "N.O.",
                 null,
-                0
+                1
             ]
         },
         "CN 1": {
@@ -465,7 +465,7 @@
             "Esc Code": [
                 "A.C.",
                 null,
-                0
+                1
             ],
             "Est total adults": [
                 "32,049",
@@ -497,7 +497,7 @@
             "Esc Code": [
                 "N.O.",
                 null,
-                0
+                1
             ]
         },
         "ST 1": {
@@ -524,7 +524,7 @@
             "Esc Code": [
                 "A.C.",
                 null,
-                0
+                1
             ],
             "Est total adults": [
                 "608",
@@ -546,7 +546,7 @@
             "Esc Code": [
                 "N.O.",
                 null,
-                0
+                1
             ]
         },
         "AT 1": {
@@ -563,7 +563,7 @@
             "Esc Code": [
                 "N.O.",
                 null,
-                0
+                1
             ]
         },
         "AT 2": {
@@ -580,7 +580,7 @@
             "Esc Code": [
                 "N.O.",
                 null,
-                0
+                1
             ]
         },
         "CT 1": {
@@ -597,7 +597,7 @@
             "Esc Code": [
                 "N.I.",
                 null,
-                0
+                1
             ]
         },
         "CT 2": {
@@ -614,7 +614,7 @@
             "Esc Code": [
                 "N.I.",
                 null,
-                0
+                1
             ]
         },
         "TR 1": {
@@ -631,7 +631,7 @@
             "Esc Code": [
                 "N.I.",
                 null,
-                0
+                1
             ]
         },
         "TR 2": {
@@ -648,7 +648,7 @@
             "Esc Code": [
                 "N.I.",
                 null,
-                0
+                1
             ]
         }
     }

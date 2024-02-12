@@ -13,17 +13,24 @@ def convert_to_list(cell):
         # Return the cell as-is if it's not a string representation of a list  
         return cell  
   
-# Function to update the list based on the float value, assumes confidence is last entry for value that may or may not contain a polygon object 
+# Function to update the list based on the content and confidence of a value, assumes that if polygon exists it is the secent entry in the value
+# This assignment of 1 or 0 determines if human review is needed for the given entry
 def update_list(value):
     valSize = len(value)
     if isinstance(value, list) and valSize in [2,3]:  
-        if value[valSize-1] is None or float(value[valSize-1]) >= 0.9:  
-            value.append(0)  
+        if value[valSize-1] is None or float(value[valSize-1]) >= 0.9:
+            # If confidence score is acceptiable, then check there are any non existant works that need to be reviewed
+            in_dictionaries = wd.in_dictionaries(value[0])
+            if in_dictionaries:
+                value.append(0)
+            else:
+                value.append(1)
         else:  
             value.append(1)  
     return value  
   
-# Function to convert flat dictionary with delimited keys into a nested dictionary  
+# Function to convert flat dictionary with delimited keys into a nested dictionary
+# This is a critical step in reformating CSV content to unflattened state so it can be converted to its original JSON form
 def nested_dict(input_dict, delimiter='.'):  
     result_dict = {}  
     for key, value in input_dict.items():  
@@ -62,33 +69,3 @@ for csv_file_path in csv_files:
         json_file.write(formatted_json)  
   
 print("CSV processing and convertion to JSON completed.")   
-
-# OLD LEGACY METHOD
-# # Open and read the CSV file
-# with open(csv_file_path, mode='r') as file:
-#     csv_reader = csv.reader(file)
-#     transposed_data = zip(*csv_reader)
-#     confidenceVal = False
-#     lastVal = ''
-#     output = []
-
-#     for column in transposed_data:
-#         if not confidenceVal:
-#             lastVal = column[1]
-#         elif column[1] != '':
-#             confidence = float(column[1])
-#             if confidence < 0.9:
-#                 output.append("Value: "+lastVal+" Confidence: "+column[1])
-
-#             is_not_real = wd.get_fake_words(lastVal)
-#             if (not is_not_real):
-#                 for fake_word in is_not_real:
-#                     is_abbrev = wd.check_addrev(is_not_real)
-#                     if (not is_abbrev):
-#                         output.append("Value: "+lastVal+" Confidence: "+column[1])
-#                         break
-        
-#         confidenceVal = not confidenceVal
-    
-#     for i in output:
-#         print(i)
