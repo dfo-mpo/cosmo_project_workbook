@@ -28,7 +28,7 @@ def check_name(word):
 # This function will check if the word matches an entry in lastnames.txt, if so return true, else return false
 # assumes word is lower case
 def check_lastname(word):
-    dictionary = "dictionaries/firstNames.txt"
+    dictionary = "dictionaries/lastNames.txt"
     with open(dictionary, 'r') as file:
         lastnames = file.read().splitlines()
     return True if word in lastnames else False
