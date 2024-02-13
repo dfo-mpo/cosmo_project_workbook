@@ -103,7 +103,7 @@ U.S.A.	 United States of America	USA or
 vol.	 volume             
 wt.	 weight 	         
 W	 west 			      
-#State abbreviations, collected from: http://www.semaphorecorp.com/cgi/states.html
+
 AA     Armed Forces Americas
 AE     Armed Forces Europe
 AK     Alaska
@@ -1617,15 +1617,3 @@ Zeitschr.   Zeitschrift
 Zeph. 	    (in the Bible) Zephaniah
 Zoogeogr.   zoogeography
 Zool. 	    zoology, zoological
-Dick	Richard
-Bill	William
-Hank	Henry
-Jack	John
-Chuck	Charles
-Peggy	Margaret
-Ted	Edward
-Harry	Henry
-Jim	James
-Sally	Sarah
-Bob	Robert
-Tim	Thomas

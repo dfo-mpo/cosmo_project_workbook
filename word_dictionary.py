@@ -1,46 +1,63 @@
 # This function will check if each word contained in entry(string) is a word that matches an entry in wordlist.txt, if so return None, else return a list of false words
 # Note each line in the text document is a word entry
 # Words that consist of only numbers and special characters are not concidered
-# False words are outputted in lowercase
+# False words are outputted in original casing
 def get_fake_words(entry):
     dictionary = "dictionaries/wordlist.txt"
     with open(dictionary, 'r') as file:
         wordlist = file.read().splitlines()  
     
     fake_words = []
-    words = entry.lower().split()  
+    words = entry.split()  
     for word in words:
         # TODO: check if word is only made up of ascii characters
         # Only check for words not only consisting of numbers and special characters
         if not all(c in '1234567890-/,() ' for c in word):
-            if word not in wordlist:  
+            # Comparisons are done not considering casing so lower case of word is evaluated
+            if word.lower() not in wordlist:  
                 fake_words.append(word)
     return fake_words
 
 # This function will check if the word matches an entry in names.txt, if so return true, else return false
-# assumes word is lower case
 def check_name(word):
     dictionary = "dictionaries/firstNames.txt"
     with open(dictionary, 'r') as file:
-        names = file.read().lower().splitlines()
+        names = file.read().splitlines()
     return True if word in names else False
 
 # This function will check if the word matches an entry in lastnames.txt, if so return true, else return false
-# assumes word is lower case
 def check_lastname(word):
     dictionary = "dictionaries/lastNames.txt"
     with open(dictionary, 'r') as file:
         lastnames = file.read().splitlines()
     return True if word in lastnames else False
 
-# This function will check if the word matches an entry in en-abbreviations.txt, if so return true, else return false
+# This function will check if the word matches an entry in abbreviations.txt, dfo-acronyms.txt, glosseries.txt, if so return true, else return false
 # Note each line the text file is formatted like 'abbr.	 abbreviation' only the first part is the addreviation
-# assumes word is lower case
 def check_abbrev(word):
-    dictionary = "dictionaries/en-abbreviations.txt"
-    with open(dictionary, 'r') as file:  
-        abbreviations = [line.split('\t')[0] for line in file.readlines()]  
-    return True if word in abbreviations else False  
+    dict_abbr = "dictionaries/abbreviations.txt"
+    dict_acr = "dictionaries/dfo-acronyms.txt"
+    dict_glos = "dictionaries/glosseries.txt"
+    with open(dict_abbr, 'r') as file:
+        # Split to take line content before whitespace since after whitespace is definition, and use strip to ignore lines of only whitespace
+        abbreviations = [line.split()[0] for line in file if line.strip()]
+
+    # If not in abbreviations, check dfo-acronyms
+    if word in abbreviations:
+        return True
+    else:
+        with open(dict_acr, 'r') as file:
+            acronyms = [line.split()[0] for line in file if line.strip()]
+
+        # If not in dfo-acronyms, check glosseries
+        if word in acronyms:
+            return True
+        else:
+            with open(dict_glos, 'r') as file:  
+                glosseries = [line.split()[0] for line in file if line.strip()]
+
+            # Return boolean if found in glosseries
+            return True if word in glosseries else False
 
 # Will add a given word to the wordlist dictionary if it exits
 def add_word_to_wordlist(new_word):

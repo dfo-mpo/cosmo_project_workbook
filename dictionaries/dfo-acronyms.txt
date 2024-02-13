@@ -1,0 +1,240 @@
+AAA             Area Aboriginal Advisors
+AABM            Aggregate Abundance-Based Management
+AAROM           Aboriginal Aquatic Resource and Oceans Management
+ABAM            Area-Based Aquaculture Management
+ACATS           Aboriginal Contribution Agreements Tracking System
+ADGT            Aquatic Diagnostics, Genomics, and Technology
+AFLP            Amplified Fragment Length Polymorphisms
+AFS             Aboriginal Fisheries Strategy
+AFSAR           Aboriginal Fund for Species at Risk
+AHC             Area Harvest Committee
+AHMS            Aboriginal Harvest Management System
+AHRF            Aquatic Habitat Restoration Fund
+AIS             Aquatic Invasive Species
+AMD             Aquaculture Management Division
+AO              Area Office(s)
+APD             Aboriginal Programs Division
+AQUIIS          Aquaculture Integrated Information System
+ARDG            Associate Regional Director General
+ATP             Allocation Transfer Program
+BCSRIF          British Columbia Salmon Restoration and Innovation Fund
+BIO             Bedford Institute of Oceanography
+BMSY            Biomass at Maximum Sustainable Yield
+C&P             Conservation & Protection Branch
+CCG             Canadian Coast Guard
+CCTAC           Canadian Commercial Total Allowable Catch
+CE              Cumulative Effects
+CEBP            Coastal Ecosystem Baseline Program
+CFN             Coastal First Nations
+CNFASR          Canada Nature Fund for Aquatic Species at Risk
+COE             Centre of Expertise
+COHO            Coho
+ABM             Abundance-Based Management
+COSEWIC         Committee on the Status of Endangered Wildlife in Canada
+CPUE            Catch Per Unit Effort
+CRB             Columbia River Basin
+CREST           Catch and Release Estimation Survey Tool
+CSAB            Commercial Salmon Advisory Board
+CSAF            Commercial Salmon Allocation Framework
+CSAP            Centre for Science Advice Pacific
+CSAS            Canadian Science Advisory Secretariat
+CSRS            Catch Statistic Reporting System
+CTAC            Canadian Total Allowable Catch
+CU              Conservation Unit
+CWT             Coded wire tag
+DBE             DIfference Between Estimates
+DFO             Fisheries and Oceans Canada
+AMDDFO          Aquaculture Management Division
+DM              Deputy Minister
+DMP             Dockside Monitoring Program
+DU              Designatable Unit
+DVS             Departmental Violations System
+E-PRO           Enhancement Program
+EBM             Ecosystem Based Management
+EBSA            Ecological and Biological Sensitive Area
+ECVI            East Coast Vancouver Island
+EMB             Ecosystems Management Branch
+ENPRO           Enhancement Project
+EO              Economic Opportunity
+EOS             Ecosystem Ocean Science
+EPAD            Enhancement Planning and Assessment
+ER              Exploitation Rate
+ERAF            Ecological Risk Assessment Framework
+ES              Ecosystem Stressors
+ESD             Ecosystem Science Division
+ESSR            Excess Salmon to Spawning Requirement
+FA              Fisheries Act
+FACTAP          Fisheries and Aquaculture Clean Technology Adoption Program
+FEATS           Fisheries Enforcement Activity Tracking System
+FFHPP           Fish and Fish Habitat Protection Program
+FGP             Federal Geospatial Portal
+FH              Fish Health Database
+FHAS            Fish Health Audit and Surveillance System
+FIA             Fraser Interior Area
+FM              Fisheries Management Branch
+FN              First Nation
+FNFC            First Nations Fisheries Council
+FNS             First Nations Summit
+FO              Fisheries Officer
+FOS             Fishery Operations System
+FOS_ISE         Fishery Operations System - Commercial Salmon In-season Estimates
+FOS_PSE         Fishery Operations System - Commercial Salmon Post-season Estimates
+FRIS            Fisheries Regulations Information System
+FRP             Fraser River Panel
+FRRA            Fisheries Resources Reconciliation Agreement
+FRSSI           Fraser River Sockeye Salmon Initiative
+FSC             Food, Social and Ceremonial
+FSCMA           Fraser Salmon Collaborative Management Agreement
+FSMB            Fraser Salmon Management Board
+FSMC            Fraser Salmon Management Council
+G&C             Grants and Contributions
+GEBCO           General Bathymetric Chart of the Oceans
+GoC             Government of Canada
+GSI             Genetic Stock Identification
+HA              Harvest Agreement
+HSP             Habitat Stewardship Program
+IA              Impact Assessment
+IAA             Indigenous Affairs Advisor
+IAMC            Indigenous Advisory and Monitoring Committee
+iARC            Internet Annual Recreational Catch reporting program
+IFMP            Integrated Fisheries Management Plans
+IHPC            Integrated Harvest Planning Committee
+IIRT            Indigenous Interests Response Team
+IK              Indigenous Knowledge
+IKS             Indigenous Knowledge Systems
+INSPECTIONSC&P  Inspection Database
+IOS             Institute of Ocean Sciences
+iREC            Internet Recreational Effort and Catch reporting program
+IRP             Interdepartmental Recovery Fund
+ISBM            Individual Stock-Based Management
+ISC             Inside Southern Chum
+ITQ             Individual Fishing Quota
+JEC             Joint Enforcement Committee
+JSIDS           Adult sockeye index data set
+JSIDS           Juvenile sockeye index data set
+KREST           Kept and Released Estimation Survey Tool
+LAER            Low Abundance Exploitation Rate
+LGS             Lower Strait of Georgia
+LOA             Letter of Agreement
+LRP             License Retirement Program
+LRP             Limit Reference Point
+MA              Management Adjustment
+MCT             Marine Conservation Targets
+MEQ             Marine Environmental Quality
+MERCI           Management and Evaluation of River Catch Information
+MM              Marine Mammals
+MPA             Marine Protected Area
+MPATT           Marine Protected Area Technical Team
+MRP_ARCH        Mark Recovery Program - Archive
+MRP_DE          Mark Recovery Program - Data Entry Interface - Database Component
+MRP_SYS         Mark Recovery Program - System
+MSDI            Marine Spatial Data Infrastructure
+MSE             Management Strategy Evaluation
+MSP             Marine Spatial Planning
+MSY             Maximum Sustainable Yield
+MU              Management Unit
+MVI             Mid Vancouver Island
+NCA             North Coast Area
+NETS/FILETS     National Enforcement Tracking Systems
+NHQ             National Headquarters
+NMCA            National Marine Conservation Area
+NMCAR           National Marine Conservation Area Reserve
+NOLS            National Online Licensing System
+NPAFC           North Pacific Anadromous Fisheries Commission
+NPFC            North Pacific Fisheries Commission
+NRKW            Northern Resident Killer Whale
+NRLS            National Recreational Licensing System
+NSB             Northern Shelf Bioregion
+NSLIS           National Special Licence Issue System
+NSLIS           National Special Licensing Issuance System
+NuSEDS          Salmon Escapement Data System
+NWA             National Wildlife Area
+OPS             Operations and Planning Committee
+OSD             Ocean Sciences Division
+OTOLITH_LAB     Otolith Laboratory Reader
+OTOLITH_ONLINE  Otolith Online Manager
+PA              Precautionary Approach
+PACHARV3        Pacific Harvest System 3.0
+PACSEARCH       Pac Search - Licensing Data Portal and Vessel Hail in/Hail out Reporting
+PAC_ADMIN       PAC ADMIN (Pacific Single-Sign-On User Access - Administrative Application)
+PADS            Pacific Age Database System
+PaRR            Pacific Region Restoration Tracker
+PARR            Program for Aquaculture Regulatory Research
+PATS            Policy Advice and Treaty Support
+PBT             Parentage Based Tagging
+PCO             Privy Council Office
+PD              Program Delivery
+pDBE            Proportional Difference Between Estimates
+PFMA            Pacific Fisheries Management Areas
+PICC            Pacific Indigenous Coordinating Committee
+PICFI           Pacific Integrated Commercial Fisheries Initiative
+PLC             Pacific Litigation Committee
+PLS             Pacific Licensing System
+pMA             Proportional Management Adjustment
+PNCIMA          Pacific North Coast Integrated Management Area
+PSARC           Pacific Scientific Advice Review Committee
+PSC             Pacific Salmon Commission
+PSEC            Pacific Science Enterprise Centre
+PSESC           Pacific Salmon Executive Steering Committee
+PSF             Pacific Salmon Foundation
+PSM             Pre-Spawn Mortality
+PSSI            Pacific Salmon Strategy Initiative
+PST             Pacific Salmon Treaty
+R&P             Reconciliation & Partnerships Branch
+R2R             Road to Results
+RAMS            Risk Assessment Method for Salmon
+RCC             Reconciliation Coordinating Committee
+RD              Regional Director
+RDG             Regional Director General
+REFDATA         Reference Data System
+REF_DIFF        Reference Data Repository Comparison process
+RFA             Reconciliation Framework Agreement
+RHQ             Regional Headquarters
+RIRSD           Recognition of Indigenous Rights and Self-Determination
+RMC             Regional Management Committee
+RPA             Recovery Potential Assessment
+RPSS            Real Property and Safety & Security
+RRAP            Pacific Regional Reconciliation Action Plan
+RRP             Regional Response Planning
+SAP             Salmon Allocation Policy
+SAR             Species at Risk; or, Search and Rescue
+SARA            Species at Risk Act
+SARP            Species at Risk Program
+SCA             South Coast Area
+SCAT            Shoreline Clean-Up Assessment Technique
+SCH             Small Craft Harbour
+SDC             Strategic Directions Committee
+SDC             Strategic Salmon Directions Committee
+SEA             Socio-Economic Analysis
+SEG             Sustainable Escapement Goal
+SEP             Salmonid Enhancement Program
+SFAB            Sport Fishing Advisory Board
+SFAC            Sport Fishing Advisory Committee
+SFNTC           Skeena First Nation Technical Committee
+SGEN            Spawner abundance required to get to SMSY in 1 generation
+SHMF            Selective Hatchery Mark Fishery
+SME             Subject Matter Expert
+SMSY            Spawners at Maximum Sustainable Yield
+SMU             Stock Management Unit
+SoG             Strait of Georgia
+SOPO            State of the Pacific Ocean
+SoS             State of Salmon
+SPA             Scale Patterns Analysis
+SPERA           Strategic Program for Ecosystem-based Research and Advice
+SPPCU           Strategic Partnerships and Program Coordination Unit
+SPU             Strategic Planning Unit
+SRKW            Southern Resident Killer Whales
+SRP             Spill Response Plan
+SSI             Salish Sea Initiative; or, Strategic Science Initiatives
+StAR            Stock Assessment and Research
+TAC             Total Allowable Catch
+TAM             Total Allowable Mortality
+TBS             Treasury Board of Canada Secretariat
+TRC             Truth and Reconciliation Commission
+UNDRIP          United Nations Declaration on the Rights of Indigenous Peoples
+VEC             Valued Ecosystem Components
+WCVI            West Coast Vancouver Island
+WSP             Wild Salmon Policy
+YSC             Yukon Salmon Sub-Committee┬
+YSRA            Yukon River Salmon Agreement
+YTRA            Yukon Transboundary Rivers Area
