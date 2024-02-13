@@ -17,7 +17,7 @@ def convert_to_list(cell):
 # This assignment of 1 or 0 determines if human review is needed for the given entry
 def update_list(value):
     valSize = len(value)
-    if isinstance(value, list) and valSize in [2,3]:  
+    if isinstance(value, list) and valSize in [2,3]:
         if value[valSize-1] is None or float(value[valSize-1]) >= 0.9:
             # If confidence score is acceptiable, then check there are any non existant works that need to be reviewed
             in_dictionaries = wd.in_dictionaries(value[0])
@@ -33,9 +33,12 @@ def update_list(value):
 # This is a critical step in reformating CSV content to unflattened state so it can be converted to its original JSON form
 def nested_dict(input_dict, delimiter='.'):  
     result_dict = {}  
-    for key, value in input_dict.items():  
+    for key, value in input_dict.items():
+        # Split parts, eg if object obj contains item, the csv would store as odj.item 
         parts = key.split(delimiter)  
         d = result_dict  
+        # If chain of nested objects found, reasign values, note that -1 is last entry
+        # If value in CSV for obj1.obj2.item, the JSON should have the value under item
         for part in parts[:-1]:  
             if part not in d:  
                 d[part] = {}  
