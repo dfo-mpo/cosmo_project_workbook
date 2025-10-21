@@ -49,15 +49,6 @@ The project requires the following Python packages:
 - glob
 
 
-## Getting Started
-
-1. Clone this repository
-2. Set up credentials:
-   - Configure `client_secrets.json`
-   - Set up necessary API credentials
-3. Install required Python packages
-
-
 ## Contact
 
 For questions about this data processing workflow, please contact the repository maintainers at DFO-MPO.
