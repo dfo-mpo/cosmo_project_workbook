@@ -10,13 +10,9 @@ This project processes and manages water quality monitoring data collected from 
 
 ## Data Processing Workflow
 
-1. Raw data is collected and stored in the `fabric/Raw data/` directory
-2. Data is processed through Jupyter notebooks:
-   - `wb_new.ipynb`: Main processing workflow
-   - `API_test.ipynb`: API integration testing
-   - `googleapi.ipynb`: Google API integration
 
-3. Processed data is organized into:
+
+Processed data is organized into:
    - Site-specific files
    - Master files
    - Final files ready for upload
